@@ -1,0 +1,4 @@
+Key,Display,Description,Color,Icon,Sort
+FIRE,Fire Extinguisher,Emergency equipment,#FF0000,fire,10
+CAMERA,Security Camera,Monitoring device,#0066CC,camera,20
+DOOR,Emergency Exit,Safety exit,#00AA00,door-open,30

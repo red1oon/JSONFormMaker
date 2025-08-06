@@ -1,0 +1,43 @@
+Seq,Field Name,Component,Input
+1,Project Name,Text,By User
+2,Work Type,Select Field,"Modelling
+Families
+Clash Analysis
+4D Simulation
+Quantification
+Rectification
+Tender Drawings
+Construction Drawings
+As-Built Drawings
+BIM Execution Plan (Project)
+BIM Execution Plan (Tender)
+Progress Report
+Model Review"
+3,Software,Select Field,"Autodesk Revit
+Autodesk Civil 3D
+Autodesk Infraworks
+Twin Motion
+Autodesk Plant 3D
+Autodesk AutoCAD
+Autodesk Forma
+Microsoft Word
+Microsoft Project
+Microsoft Excel"
+4,Component (Trade),Select Field,"Architecture Building
+Structure Building
+Mechanical Building
+Electrical Building
+Roadworks
+Sewerage
+Water Reticulation
+Drainage
+Utilities
+Landscape
+Roadworks Bridge
+Pedestrian Bridge"
+5,Working,TaskListField,"Job,Review"
+6,Dimension,SelectField,"Area (Sqft)
+No. (Nos)
+No. (System)
+Length (metre)"
+,Quantity,NumberField, 

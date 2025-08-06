@@ -1,0 +1,354 @@
+{
+  "windowId" : "BIM ADUI",
+  "name" : "BIM ADUI",
+  "description" : "Form generated from testcsv.csv",
+  "windowType" : "Transaction",
+  "tabs" : [ {
+    "tabId" : "MAIN_TAB",
+    "name" : "Main",
+    "description" : "Main form fields",
+    "sequence" : 10,
+    "isSingleRow" : true,
+    "fields" : [ {
+      "fieldId" : "TEXT_FIELD_1",
+      "name" : "Project Name",
+      "component" : "TextField",
+      "sequence" : 10,
+      "help" : "This is a test BIM prototype. Whack it as much you can and report back",
+      "ui" : {
+        "showIcons" : false,
+        "helpText" : "",
+        "placeholder" : ""
+      }
+    }, {
+      "fieldId" : "SELECT_FIELD_2",
+      "name" : "Work Type",
+      "component" : "SelectField",
+      "sequence" : 20,
+      "description" : "This describe the Work Type the Modeller is engaged in.",
+      "help" : "Ask Shafie if you don't know how to use this.",
+      "validation" : {
+        "required" : true
+      },
+      "ui" : {
+        "showIcons" : false,
+        "helpText" : "",
+        "placeholder" : ""
+      },
+      "reference" : {
+        "values" : [ {
+          "key" : "MODELLING",
+          "display" : "Modelling",
+          "color" : "#4CAF50"
+        }, {
+          "key" : "FAMILIES",
+          "display" : "Families",
+          "color" : "#FF9800"
+        }, {
+          "key" : "CLASH_ANALYSIS",
+          "display" : "Clash Analysis",
+          "color" : "#2196F3"
+        }, {
+          "key" : "4D_SIMULATION",
+          "display" : "4D Simulation",
+          "color" : "#9C27B0"
+        }, {
+          "key" : "QUANTIFICATION",
+          "display" : "Quantification",
+          "color" : "#F44336"
+        }, {
+          "key" : "RECTIFICATION",
+          "display" : "Rectification",
+          "color" : "#607D8B"
+        }, {
+          "key" : "TENDER_DRAWINGS",
+          "display" : "Tender Drawings",
+          "color" : "#795548"
+        }, {
+          "key" : "CONSTRUCTION_DRAWINGS",
+          "display" : "Construction Drawings",
+          "color" : "#FF5722"
+        }, {
+          "key" : "AS-BUILT_DRAWINGS",
+          "display" : "As-Built Drawings",
+          "color" : "#4CAF50"
+        }, {
+          "key" : "BIM_EXECUTION_PLAN_PROJECT",
+          "display" : "BIM Execution Plan (Project)",
+          "color" : "#FF9800"
+        }, {
+          "key" : "BIM_EXECUTION_PLAN_TENDER",
+          "display" : "BIM Execution Plan (Tender)",
+          "color" : "#2196F3"
+        }, {
+          "key" : "PROGRESS_REPORT",
+          "display" : "Progress Report",
+          "color" : "#9C27B0"
+        }, {
+          "key" : "MODEL_REVIEW",
+          "display" : "Model Review",
+          "color" : "#F44336"
+        } ]
+      }
+    }, {
+      "fieldId" : "SELECT_FIELD_3",
+      "name" : "Software",
+      "component" : "SelectField",
+      "sequence" : 30,
+      "description" : "This describe the  Component the Modeller is engaged in.",
+      "help" : "",
+      "validation" : {
+        "required" : true
+      },
+      "ui" : {
+        "showIcons" : false,
+        "helpText" : "",
+        "placeholder" : ""
+      },
+      "reference" : {
+        "values" : [ {
+          "key" : "AUTODESK_REVIT",
+          "display" : "Autodesk Revit",
+          "color" : "#4CAF50"
+        }, {
+          "key" : "AUTODESK_CIVIL_3D",
+          "display" : "Autodesk Civil 3D",
+          "color" : "#FF9800"
+        }, {
+          "key" : "AUTODESK_INFRAWORKS",
+          "display" : "Autodesk Infraworks",
+          "color" : "#2196F3"
+        }, {
+          "key" : "TWIN_MOTION",
+          "display" : "Twin Motion",
+          "color" : "#9C27B0"
+        }, {
+          "key" : "AUTODESK_PLANT_3D",
+          "display" : "Autodesk Plant 3D",
+          "color" : "#F44336"
+        }, {
+          "key" : "AUTODESK_AUTOCAD",
+          "display" : "Autodesk AutoCAD",
+          "color" : "#607D8B"
+        }, {
+          "key" : "AUTODESK_FORMA",
+          "display" : "Autodesk Forma",
+          "color" : "#795548"
+        }, {
+          "key" : "MICROSOFT_WORD",
+          "display" : "Microsoft Word",
+          "color" : "#FF5722"
+        }, {
+          "key" : "MICROSOFT_PROJECT",
+          "display" : "Microsoft Project",
+          "color" : "#4CAF50"
+        }, {
+          "key" : "MICROSOFT_EXCEL",
+          "display" : "Microsoft Excel",
+          "color" : "#FF9800"
+        } ]
+      }
+    }, {
+      "fieldId" : "SELECT_FIELD_4",
+      "name" : "Component (Trade)",
+      "component" : "SelectField",
+      "sequence" : 40,
+      "description" : "This describe the  Component the Modeller is engaged in.",
+      "help" : "",
+      "validation" : {
+        "required" : true
+      },
+      "ui" : {
+        "showIcons" : false,
+        "helpText" : "",
+        "placeholder" : ""
+      },
+      "reference" : {
+        "values" : [ {
+          "key" : "ARCHITECTURE_BUILDING",
+          "display" : "Architecture Building",
+          "color" : "#4CAF50"
+        }, {
+          "key" : "STRUCTURE_BUILDING",
+          "display" : "Structure Building",
+          "color" : "#FF9800"
+        }, {
+          "key" : "MECHANICAL_BUILDING",
+          "display" : "Mechanical Building",
+          "color" : "#2196F3"
+        }, {
+          "key" : "ELECTRICAL_BUILDING",
+          "display" : "Electrical Building",
+          "color" : "#9C27B0"
+        }, {
+          "key" : "ROADWORKS",
+          "display" : "Roadworks",
+          "color" : "#F44336"
+        }, {
+          "key" : "SEWERAGE",
+          "display" : "Sewerage",
+          "color" : "#607D8B"
+        }, {
+          "key" : "WATER_RETICULATION",
+          "display" : "Water Reticulation",
+          "color" : "#795548"
+        }, {
+          "key" : "DRAINAGE",
+          "display" : "Drainage",
+          "color" : "#FF5722"
+        }, {
+          "key" : "UTILITIES",
+          "display" : "Utilities",
+          "color" : "#4CAF50"
+        }, {
+          "key" : "LANDSCAPE",
+          "display" : "Landscape",
+          "color" : "#FF9800"
+        }, {
+          "key" : "ROADWORKS_BRIDGE",
+          "display" : "Roadworks Bridge",
+          "color" : "#2196F3"
+        }, {
+          "key" : "PEDESTRIAN_BRIDGE",
+          "display" : "Pedestrian Bridge",
+          "color" : "#9C27B0"
+        } ]
+      }
+    }, {
+      "fieldId" : "SELECT_FIELD_6",
+      "name" : "Dimension",
+      "component" : "SelectField",
+      "sequence" : 50,
+      "description" : ".",
+      "help" : "Select the Dimension then fill in the Quantity for that dimension.",
+      "validation" : {
+        "required" : true
+      },
+      "ui" : {
+        "showIcons" : false,
+        "helpText" : "",
+        "placeholder" : ""
+      },
+      "reference" : {
+        "values" : [ {
+          "key" : "AREA_SQFT",
+          "display" : "Area (Sqft)",
+          "color" : "#4CAF50"
+        }, {
+          "key" : "NO._NOS",
+          "display" : "No. (Nos)",
+          "color" : "#FF9800"
+        }, {
+          "key" : "NO._SYSTEM",
+          "display" : "No. (System)",
+          "color" : "#2196F3"
+        }, {
+          "key" : "LENGTH_METRE",
+          "display" : "Length (metre)",
+          "color" : "#9C27B0"
+        } ]
+      }
+    }, {
+      "fieldId" : "NUMBER_FIELD_7",
+      "name" : "Quantity",
+      "component" : "NumberField",
+      "sequence" : 60,
+      "description" : ".Must fill in, if you filled the Dimension element",
+      "validation" : {
+        "required" : true,
+        "min" : 0.0,
+        "max" : 9999.0
+      },
+      "ui" : {
+        "showIcons" : false,
+        "helpText" : "",
+        "placeholder" : ""
+      }
+    }, {
+      "fieldId" : "TASKLIST_FIELD_5",
+      "name" : "Progress",
+      "component" : "TaskListField",
+      "sequence" : 70,
+      "description" : ".",
+      "help" : "Optional . Fill in for fun.",
+      "ui" : {
+        "allowZoomGraph" : true,
+        "showIcons" : false,
+        "helpText" : "",
+        "placeholder" : "",
+        "statusColors" : {
+          "in_progress" : "#ED8936",
+          "blocked" : "#F56565",
+          "completed" : "#48BB78",
+          "not_started" : "#90CDF4"
+        },
+        "priorityColors" : {
+          "normal" : "#3182CE",
+          "high" : "#FF9800",
+          "critical" : "#E53E3E",
+          "low" : "#38A169"
+        }
+      },
+      "data" : {
+        "settings" : {
+          "defaultStatus" : "not_started",
+          "defaultPriority" : "low",
+          "autoCalculateProgress" : false,
+          "showProgressBars" : false
+        },
+        "relationships" : [ {
+          "lag" : 0,
+          "description" : "Job to Review",
+          "from" : "TASK001",
+          "to" : "TASK002",
+          "type" : "finish_to_start"
+        } ],
+        "resources" : [ ],
+        "tasks" : [ {
+          "phase" : "Default",
+          "completion" : 0,
+          "endDate" : null,
+          "description" : "Task: Job",
+          "priority" : "MEDIUM",
+          "actualHours" : 0,
+          "parentId" : null,
+          "name" : "Job",
+          "estimatedHours" : 999,
+          "id" : "TASK001",
+          "assignee" : "System",
+          "startDate" : null,
+          "status" : "NOT_STARTED"
+        }, {
+          "phase" : "Default",
+          "completion" : 0,
+          "endDate" : null,
+          "description" : "Task: Review",
+          "priority" : "MEDIUM",
+          "actualHours" : 0,
+          "parentId" : null,
+          "name" : "Review",
+          "estimatedHours" : 999,
+          "id" : "TASK002",
+          "assignee" : "System",
+          "startDate" : null,
+          "status" : "NOT_STARTED"
+        } ],
+        "dependencies" : [ {
+          "fromTaskId" : "TASK002",
+          "toTaskId" : "TASK001",
+          "lagDays" : 0,
+          "type" : "finish-to-start"
+        } ]
+      }
+    } ]
+  } ],
+  "metadata" : {
+    "version" : "1.1",
+    "source" : "csv-converter-enhanced-v1.1",
+    "lastModified" : "2025-08-06T05:14:26.037215Z",
+    "templateType" : "csv-import-enhanced",
+    "createdBy" : "CSV to ADUI Converter Enhanced",
+    "originalFile" : "testcsv.csv",
+    "description" : "Auto-generated from testcsv.csv with builder compatibility"
+  }
+}
