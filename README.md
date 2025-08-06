@@ -7,7 +7,7 @@
 [![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://python.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/red1oon/JSONFormMaker/releases)
 
-A comprehensive toolset for creating and managing JSON form configurations for ADUI mobile applications. Build professional forms using visual drag-and-drop design or convert existing CSV data into ADUI-compatible JSON formats.
+A comprehensive toolset for creating and managing JSON form configurations for ADUI mobile applications. Build professional forms using visual drag-and-drop design or convert existing CSV data into [ADUI](https://github.com/red1oon/ADUI/)-compatible JSON formats.
 
 ![JSONFormMaker Screenshot](docs/images/jsonformmaker-main.png)
 
